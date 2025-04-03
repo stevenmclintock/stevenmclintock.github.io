@@ -59,7 +59,7 @@ footer-menu:
 
 # Homepage
 homepage:
-  header-text: 'Hi! 👋 I''m Steven, a Scottish software developer living in Stratford, Ontario 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇨🇦'
+  header-text: 'Hi! 👋 I''m Steven, a Scottish software developer living in Stratford, Ontario'
   intro-text: 'I''m currently a Senior Developer at <a href="https://1password.com/">1Password</a>! 
               I proudly graduated from <a href="https://www.gcu.ac.uk" />Glasgow Caledonian University</a> 
               with a BSc in Internet Software Development in 2006.'

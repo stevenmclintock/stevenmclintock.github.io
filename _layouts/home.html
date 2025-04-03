@@ -4,7 +4,7 @@ layout: default
 
 <article>
     {% if site.homepage.header-text.size > 0 %}
-    <section class="page-header text-center">
+    <section class="page-header">
       <h1>
         {{ site.homepage.header-text }}
       </h1>
@@ -12,7 +12,7 @@ layout: default
     {% endif %}
 
     {% if site.homepage.intro-text.size > 0 or site.homepage.intro-image.size > 0 %}
-    <section class="text-center">
+    <section>
         {% if site.homepage.intro-text.size > 0 %}
         <p>{{ site.homepage.intro-text }}</p>
         {% endif %}
@@ -21,7 +21,7 @@ layout: default
     
     {% if site.homepage.blog-enabled %}
     {% if site.homepage.blog-title-text.size > 0 %}
-    <section class="text-center top-bumper bottom-bumper">
+    <section class="top-bumper bottom-bumper">
         <h4>{{ site.homepage.blog-title-text }}</h4>
     </section>
     {% endif %}
