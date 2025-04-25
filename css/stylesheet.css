@@ -306,12 +306,12 @@ nav ul li a:hover {
 }
 
 article a, nav ul li.active a {
-  border-bottom: 2px solid #005EB8;
+  border-bottom: 2px solid #005fb8a7;
   color: #000;
 }
 
-article a.alt, nav ul li.active a.alt {
-  border-bottom-color: #FF0000;
+article a:hover, nav ul li.active a:hover {
+  border-bottom-color: #ff0000aa;
 }
 
 footer {
